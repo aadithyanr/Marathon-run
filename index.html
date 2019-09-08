@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<title>Marathon Run</title>
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
+		<script type="text/javascript" src="js/three.min.js"></script>
+        <script type="text/javascript" src="js/game.js"></script>
+		<link href="style.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="panel">
+			<div class="game-title">
+				<div class="title">Marathon Run</div>
+				<div class="byline">by <a target="_blank" href="https://theaadithyan.github.io/">Aadithyan Rajesh</a></div>
+			</div>
+			<div class="stat">
+				<label>Score</label>
+				<p id="score">0</p>
+			</div>
+			<table id="controls">
+			  	<tr>
+			    	<td>Up:</td>
+			    	<td>Jump</td>
+			  	</tr>
+			  	<tr>
+			    	<td>Left:</td>
+			    	<td>Left lane switch</td>
+			  	</tr>
+			  	<tr>
+			    	<td>Right:</td>
+			    	<td>Right lane switch</td>
+			  	</tr>
+			  	<tr>
+			    	<td>p:</td>
+			    	<td>Pause</td>
+			  	</tr>
+			</table>
+			<table id="ranks"></table>
+			<div class="animate-flicker" id="variable-content">Press any button to begin</div>
+		</div>
+		<div id="world"></div>
+			
+		</div>
+	</body>
+</html>
