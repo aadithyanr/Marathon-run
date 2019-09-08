@@ -8,4 +8,4 @@ The objective of the game is to jump and shuffle to avoid the trees. The 3D Grap
 
 # Usage
 
-You can play the game, hosted on my website on GitHub, [here](https://theaadithyan.github.io/marathon-run/).
+You can play the game, hosted on my website on GitHub, [here](https://marathongame.netlify.com/).
